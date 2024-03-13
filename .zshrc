@@ -9,22 +9,11 @@ ZSH_THEME="jbergantine"
 plugins=(aws docker encode64 git npm sudo yarn zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting alias-tips)
 
 source $ZSH/oh-my-zsh.sh
+source ./zsh/aliases.zsh
 
 # User configuration
 
-alias fastlægge='git commit'
-alias hale='git pull'
-alias hente='git fetch'
-alias tilføj='git add'
-alias skifte='git switch'
-alias gemme='git stash'
-alias gren='git branch'
-alias klone='git clone'
-alias tjek-ud='git checkout'
-alias giv-status='git status'
-alias puffe='git push'
-alias update='brew update && brew upgrade'
-alias lg='lazygit'
+
 eval "$(zoxide init zsh)"
 eval $(thefuck --alias)
 
@@ -247,3 +236,9 @@ if [ "$funcstack[1]" = "_obs" ]; then
     _obs
 fi
 export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
+
+# Download Znap, if it's not there yet.
+[[ -r ~/Repos/znap/znap.zsh ]] ||
+    git clone --depth 1 -- \
+        https://github.com/marlonrichert/zsh-snap.git ~/Repos/znap
+source ~/Repos/znap/znap.zsh  # Start Znap

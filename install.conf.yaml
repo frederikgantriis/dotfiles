@@ -1,8 +1,0 @@
-- default:
-    link: 
-      relink: true
-
-- link:
-  ~/.zshrc: 
-    force: true
-    path: zsh/zshrc
