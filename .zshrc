@@ -9,7 +9,7 @@ ZSH_THEME="jbergantine"
 plugins=(aws docker encode64 git npm sudo yarn zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting alias-tips)
 
 source $ZSH/oh-my-zsh.sh
-source ./zsh/aliases.zsh
+source $HOME/zsh/aliases.zsh
 
 # User configuration
 
