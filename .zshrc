@@ -3,6 +3,8 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 
 ZSH_THEME="jbergantine"
 
@@ -242,3 +244,5 @@ export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
     git clone --depth 1 -- \
         https://github.com/marlonrichert/zsh-snap.git ~/Repos/znap
 source ~/Repos/znap/znap.zsh  # Start Znap
+
+export PATH=$PATH:/Users/frederikmoller/.spicetify
