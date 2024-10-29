@@ -1,7 +1,28 @@
 lastupdatecheck: 0
 recentrepos:
-- /Users/frederikmoller/dotfiles
+    - /Users/frederikmoller/dotfiles
+    - /Users/frederikmoller/dev/2024-adpro
+    - /Users/frederikmoller/dev/algorithm_design
+    - /Users/frederikmoller/dev/iml_assignment1
+    - /Users/frederikmoller/dev/practical-concurrent-and-parallel-programming/PCPP2024_Assignment4
+    - /Users/frederikmoller/Library/CloudStorage/ProtonDrive-info@frederikgantriis.com-folder/daily-notes
+    - /Users/frederikmoller/dev/practical-concurrent-and-parallel-programming/PCPP2024_Assignment3
+    - /Users/frederikmoller/dev/practical-concurrent-and-parallel-programming/PCPP2024_Assignment2
+    - /Users/frederikmoller/dev/practical-concurrent-and-parallel-programming/PCPP2024Assignment1
+    - /Users/frederikmoller/dev/bachelor-project/bachelor-project-code
+    - /Users/frederikmoller/dev/foundations-of-game-ai/pacman-project-2
+    - /Users/frederikmoller/dev/wishlist
 startuppopupversion: 5
-customcommandshistory: []
+lastversion: 0.44.1
+customcommandshistory:
+    - q
+    - wq
+    - ""
 hidecommandlog: false
-ignorewhitespaceindiffview: false
+ignorewhitespaceindiffview: true
+diffcontextsize: 3
+renamesimilaritythreshold: 50
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always
