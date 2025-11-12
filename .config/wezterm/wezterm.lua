@@ -3,7 +3,7 @@ local config = wezterm.config_builder()
 
 -- config.color_scheme = "catppuccin-macchiato"
 config.color_scheme = "GruvboxDark"
-config.font = wezterm.font("FiraCode Nerd Font Mono", { weight = 600 })
+-- config.font = wezterm.font("FiraCode Nerd Font Mono", { weight = 600 })
 config.font_size = 14
 config.line_height = 0.95
 config.adjust_window_size_when_changing_font_size = false
