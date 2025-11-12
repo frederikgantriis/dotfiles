@@ -252,3 +252,8 @@ export PATH=$PATH:/Users/frederikmoller/.spicetify
 
 # Auto-Warpify
 printf 'P$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh", "uname": "Darwin" }}œ' 
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/frederikmoller/.lmstudio/bin"
+# End of LM Studio CLI section
+
