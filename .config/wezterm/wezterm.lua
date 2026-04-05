@@ -1,5 +1,6 @@
 local wezterm = require("wezterm")
 local config = wezterm.config_builder()
+local act = wezterm.action
 
 -- config.color_scheme = "catppuccin-macchiato"
 config.color_scheme = "GruvboxDark"
@@ -24,13 +25,16 @@ config.hide_tab_bar_if_only_one_tab = true
 
 config.keys = {
 	{
-		key = "k",
+		key = "p",
 		mods = "SHIFT|CMD",
 		action = wezterm.action.SplitPane({
-			direction = "Up",
+			direction = "Right",
 			size = { Percent = 50 },
 		}),
 	},
+	-- Existing navigation shortcuts
+	{ key = "w", mods = "SHIFT|CMD", action = act.CloseCurrentPane({ confirm = true }) },
+	{ key = "s", mods = "SHIFT|CMD", action = act.PaneSelect },
 }
 
 return config
